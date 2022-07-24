@@ -13,7 +13,7 @@ function App() {
   const [page, setPage] = useState(1);
   
   const fetchPopularMovies = (page) => {
-    getPopularMovies()
+    getPopularMovies(page)
     .then((response)=>response.json())
     .then((responseJson)=> {
     setMovies(responseJson.results)
@@ -21,7 +21,7 @@ function App() {
   }
 
   useEffect(()  => {
-    fetchPopularMovies();
+    fetchPopularMovies(page);
   },[page])
 
 

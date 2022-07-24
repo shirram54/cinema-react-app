@@ -7,6 +7,7 @@ const CustomPagination = () => {
     const {page, setPage} = useContext(PageContext);
 
     const handlePageChange = (page) => {
+      console.log('paginate to', page)
         setPage(page);
         window.scroll(0, 0);
       };

@@ -6,9 +6,3 @@ export const getPopularMovies = async (page) => {
     `${baseURL}/movie/popular?api_key=${apiKey}&language=en-US&page=${page}`
   );
 };
-
-// export const getPopularMovies = async (page=1) => {
-//   return fetch(
-//     `${baseURL}/movie/popular?api_key=${apiKey}&language=en-US&page=${page}`
-//   );
-// };
