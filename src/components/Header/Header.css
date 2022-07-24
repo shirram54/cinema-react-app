@@ -1,0 +1,41 @@
+
+
+body {
+    margin: 0;
+  }
+
+  .main-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 117px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+  }
+
+  .main-title:hover {
+    color: #543b78;
+  }
+
+
+.header{
+    background-image: url(https://w0.peakpx.com/wallpaper/62/1005/HD-wallpaper-netflix-streaks-abstract-background-blue-colors-colour-colours-dark-neon-netflix.jpg);
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 3px 6px 0 #555;
+    width: 120vw;
+    height: 120px;
+    position: fixed;
+    display: flex;
+    color: white;
+    z-index: 100;
+    top: 0;
+}
+
+
+
