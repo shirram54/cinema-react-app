@@ -93,8 +93,7 @@
   .container:hover .two{
     transform:scale(1)
   }
-  p{
-  }
+  
   p span{
     color:#f1c40f
   }
@@ -106,5 +105,3 @@
      overflow: scroll;
      height: 200px;
   }
-
- 

@@ -69,13 +69,13 @@ function Movies() {
       {moviesDisplay.map((movie,index)=> (
         <div class="flip-box"> 
               <div className="container">
+                
   <div className="one">
-  <Badge
+    <img src={`${baseImageUrl}${movie.poster_path}`} ></img>
+    <Badge
         badgeContent={movie.vote_average}
         color={movie.vote_average > 7 ? "primary" : "secondary"}
       />
-  
-    <img src={`${baseImageUrl}${movie.poster_path}`} ></img>
   </div>
   <div className="two">
       <h2 className="movie-title">{movie.title}</h2>

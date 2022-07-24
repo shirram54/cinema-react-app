@@ -36,7 +36,7 @@ const Search = () => {
        type="search"
        options={movies}
        getOptionLabel={movie => movie.original_title}
-       sx={{ width: 300, bgcolor:'white'}}
+       sx={{ width: 300, bgcolor:'white', borderRadius: 1.5 }}
        renderInput={(params) => 
        <TextField
          {...params} 
