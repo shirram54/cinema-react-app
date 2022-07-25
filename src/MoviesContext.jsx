@@ -1,3 +1,3 @@
 import react from "react";
 
-export default react.createContext({movies: []});
+export default react.createContext({ movies: [[], [], []] });

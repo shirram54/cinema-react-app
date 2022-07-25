@@ -1,0 +1,11 @@
+.search-box {
+    display: flex;
+    height: 48px;
+
+  }
+
+  input{
+    width: 250px;
+    font-size: 17px;
+    padding-left: 5px;
+  }
