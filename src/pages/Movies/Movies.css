@@ -1,8 +1,17 @@
-.movie-page-search{
+.movies-search{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 200px;
+    margin-top: 45px;
     column-gap: 35px;
     padding: 0 150px;
+}
+
+.search-movies-page{
+    margin-top: 200px;
+}
+
+.title-search-page{
+    font-size: 23px;
+    margin: 8px 124px; 
 }

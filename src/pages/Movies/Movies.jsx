@@ -9,10 +9,13 @@ const Movies = () => {
 
 
     return (
-        <div className="movie-page-search">
-            {movies.map(movie =>
-                <Movie movie={movie} />
-            )}
+        <div className="search-movies-page">
+            <div className="title-search-page">Search Movies</div>
+            <div className="movies-search">
+                {movies.map(movie =>
+                    <Movie movie={movie} />
+                )}
+            </div>
         </div>
     )
 }
